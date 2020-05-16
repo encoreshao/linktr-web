@@ -8,16 +8,19 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          免费注册账号
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          已经有账号？
+          <a
+            className="App-link"
+            href="/sessions/login"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            登录
+          </a>
+        </p>
       </header>
     </div>
   );
