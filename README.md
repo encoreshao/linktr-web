@@ -5,8 +5,11 @@
   - npx create-react-app linktr-web
   - yarn start
 
-## Add React
-  - yarn add react-bootstrap
+## Add MDBreact - https://mdbootstrap.com/docs/react/getting-started/quick-start/
+  - yarn add mdbreact
+
+## Add router - https://reacttraining.com/react-router/web/guides/quick-start
+  - yarn install react-router-dom
 
 ## Build
   - yarn build
