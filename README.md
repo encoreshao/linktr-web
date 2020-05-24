@@ -7,6 +7,8 @@
 
 ## Add MDBreact - https://mdbootstrap.com/docs/react/getting-started/quick-start/
   - yarn add mdbreact
+  - Documents
+    - color: https://mdbootstrap.com/docs/react/css/colors/
 
 ## Add router - https://reacttraining.com/react-router/web/guides/quick-start
   - yarn install react-router-dom

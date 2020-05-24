@@ -1,14 +1,22 @@
 import React from 'react';
+import { MDBContainer, MDBMask, MDBView } from 'mdbreact';
 import { withRouter } from 'react-router';
 
-const Error = () => {
-  return (
-    <header className='App-header'>
-      <div className="App">
-        <p>Error: Page does not exist!</p>
-      </div>
-    </header>
+const LTError = () => {
+    return (
+      <MDBContainer className="mt-5">
+        <MDBView rounded>
+          <img
+            src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
+            className="img-fluid"
+            alt=""
+          />
+          <MDBMask pattern={0} className="flex-center rgba-teal-slight">
+            <h1 className="white-text">Page does not exist!</h1>
+          </MDBMask>
+        </MDBView>
+     </MDBContainer>
   );
 }
 
-export default withRouter(Error);
+export default withRouter(LTError);

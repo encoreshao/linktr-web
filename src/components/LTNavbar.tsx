@@ -1,13 +1,18 @@
 import React from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBMask, MDBView } from 'mdbreact';
-import { BrowserRouter } from 'react-router-dom';
+import {
+  MDBNavbar, MDBNavbarBrand, MDBNavbarNav,
+  MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink,
+  MDBContainer, MDBIcon
+} from 'mdbreact';
+import logo from './../images/logo.svg';
 
-class LTNavbar extends React.Component<any, any> {
+import { withTranslation } from 'react-i18next';
+
+class LTNavbarComponent extends React.Component<any, any> {
   constructor(props: any) {
     super(props);
     this.state = {
-      collapse: false,
-      isWideEnough: false,
+      collapse: false
     };
     this.onClick = this.onClick.bind(this);
   }
@@ -19,32 +24,45 @@ class LTNavbar extends React.Component<any, any> {
   }
 
   render() {
+    const { t } = this.props;
+
     return (
-      <div>
-        <BrowserRouter>
-          <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
-            <MDBNavbarBrand href="/">
-              <strong>One Link</strong>
-            </MDBNavbarBrand>
-            {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
-            <MDBCollapse isOpen={this.state.collapse} navbar>
-              <MDBNavbarNav left>
-                <MDBNavItem >
-                  <MDBNavLink to="/">HOME</MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink to="/links">LINKS</MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink to="/about">ABOUT</MDBNavLink>
-                </MDBNavItem>
-              </MDBNavbarNav>
-            </MDBCollapse>
-          </MDBNavbar>
-        </BrowserRouter>
-      </div>
+      <MDBNavbar color="bg-primary" fixed="top" expand="md" light transparent>
+        <MDBContainer fluid className="text-center text-md-left">
+          <MDBNavbarBrand href="/">
+            <span>
+              <img className="img-fluid" alt="" src={logo} />
+            </span>
+          </MDBNavbarBrand>
+          {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
+          <MDBCollapse isOpen={this.state.collapse} navbar>
+            <MDBNavbarNav left>
+              <MDBNavItem active>
+                <MDBNavLink to="/">{t('menu.home')}</MDBNavLink>
+              </MDBNavItem>
+              <MDBNavItem>
+                <MDBNavLink to="/about">{t('menu.about')}</MDBNavLink>
+              </MDBNavItem>
+              <MDBNavItem>
+                <MDBNavLink to="/help">{t('menu.help')}</MDBNavLink>
+              </MDBNavItem>
+            </MDBNavbarNav>
+
+            <MDBNavbarNav right>
+              <MDBNavItem>
+                <MDBNavLink to="/"><MDBIcon fab icon="home" /></MDBNavLink>
+              </MDBNavItem>
+              <MDBNavItem>
+                <MDBNavLink to="/login"><MDBIcon fab icon="user" /></MDBNavLink>
+              </MDBNavItem>
+            </MDBNavbarNav>
+          </MDBCollapse>
+         </MDBContainer>
+      </MDBNavbar>
     );
   }
 }
+
+const LTNavbar = withTranslation()(LTNavbarComponent)
 
 export default LTNavbar;

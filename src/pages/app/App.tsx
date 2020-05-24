@@ -1,28 +1,39 @@
-import React, { Component } from 'react';
-import ReactDOM from "react-dom";
+import React from 'react';
 import { BrowserRouter, Route, Switch, withRouter } from 'react-router-dom';
+
+// Import i18n
+import './../../utils/i18n';
 
 import LTNavbar from './../../components/LTNavbar'
 
 import LTHome from './../about/LTHome';
 import LTAbout from './../about/LTAbout';
+import LTHelp from './../about/LTHelp';
 import LTSignIn from './../sessions/LTSignIn';
+import LTSignUp from './../sessions/LTSignUp';
 import LTError from './../../components/LTError';
 
-class App extends React.Component {
-  render() {
-    return (
-      <BrowserRouter>
-        <LTNavbar />
-        <Switch>
+import LTFooter from './../../components/LTFooter';
+
+const App = () => {
+  return (
+    <BrowserRouter>
+      <LTNavbar />
+
+      <Switch>
+        <div className="container pt-5">
           <Route path="/" component={withRouter(LTHome)} exact />
-          <Route path="/links" component={withRouter(LTAbout)} />
-          <Route path="/signin" component={withRouter(LTSignIn)} />
+          <Route path="/about" component={withRouter(LTAbout)} />
+          <Route path="/login" component={withRouter(LTSignIn)} />
+          <Route path="/signup" component={withRouter(LTSignUp)} />
+          <Route path="/help" component={withRouter(LTHelp)} />
           <Route path="/error"  component={withRouter(LTError)} />
-        </Switch>
-      </BrowserRouter>
-    );
-  }
+         </div>
+      </Switch>
+
+      <LTFooter />
+    </BrowserRouter>
+  );
 }
 
 export default App;

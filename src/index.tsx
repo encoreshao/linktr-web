@@ -8,10 +8,11 @@ import 'mdbreact/dist/css/mdb.css';
 
 // components
 import App from './pages/app/App';
+import './index.css';
 
 ReactDOM.render(
   <App />,
-  document.getElementById('page-container')
+  document.getElementById('linkTree')
 );
 
 // If you want your app to work offline and load faster, you can change
