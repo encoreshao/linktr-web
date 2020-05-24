@@ -11,7 +11,7 @@ const resources = {
   },
   zh: {
     translation: {
-      "title": "linktr.cn Beta.",
+      "title": "linktr.cn",
       "domain": "https://linktr.cn",
       menu: {
         'home': '首页',
