@@ -2,7 +2,11 @@
   position: relative;
 }
 
-.App-header::after {
+.home-header {
+  background-color: transparent;
+}
+
+.home-header::after {
   /*background: url('https://mdbootstrap.com/img/Photos/Slides/img%20(134).jpg') no-repeat center center fixed;*/
   /*background: url('https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80') no-repeat center center fixed;*/
   /*background: url('https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg') no-repeat center center fixed;*/
@@ -39,7 +43,7 @@
   }
 }
 
-.App-header {
+.home-header {
   font-size: calc(10px + 2vmin);
   color: white;
 }

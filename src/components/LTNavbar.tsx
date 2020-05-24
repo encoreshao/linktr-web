@@ -12,7 +12,8 @@ class LTNavbarComponent extends React.Component<any, any> {
   constructor(props: any) {
     super(props);
     this.state = {
-      collapse: false
+      collapse: false,
+      isWideEnough: false
     };
     this.onClick = this.onClick.bind(this);
   }
@@ -28,7 +29,7 @@ class LTNavbarComponent extends React.Component<any, any> {
 
     return (
       <MDBNavbar color="bg-primary" fixed="top" expand="md" light transparent>
-        <MDBContainer fluid className="text-center text-md-left">
+        <MDBContainer fluid className="text-md-left">
           <MDBNavbarBrand href="/">
             <span>
               <img className="img-fluid" alt="" src={logo} />
@@ -37,20 +38,23 @@ class LTNavbarComponent extends React.Component<any, any> {
           {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
           <MDBCollapse isOpen={this.state.collapse} navbar>
             <MDBNavbarNav left>
-              <MDBNavItem active>
+              <MDBNavItem activeClassName='active'>
                 <MDBNavLink to="/">{t('menu.home')}</MDBNavLink>
               </MDBNavItem>
-              <MDBNavItem>
+              <MDBNavItem activeClassName='active'>
                 <MDBNavLink to="/about">{t('menu.about')}</MDBNavLink>
               </MDBNavItem>
-              <MDBNavItem>
+              <MDBNavItem activeClassName='active'>
+                <MDBNavLink to="/pricing">{t('menu.pricing')}</MDBNavLink>
+              </MDBNavItem>
+              <MDBNavItem activeClassName='active'>
                 <MDBNavLink to="/help">{t('menu.help')}</MDBNavLink>
               </MDBNavItem>
             </MDBNavbarNav>
 
             <MDBNavbarNav right>
               <MDBNavItem>
-                <MDBNavLink to="/"><MDBIcon fab icon="home" /></MDBNavLink>
+                <MDBNavLink to="#!"><span className='blue-text'>Beta.</span></MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
                 <MDBNavLink to="/login"><MDBIcon fab icon="user" /></MDBNavLink>

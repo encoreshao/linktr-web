@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 // https://mdbootstrap.com/docs/react/css/colors/
 
 const LTFooter = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <MDBFooter className="font-small pt-4 mt-4 special-color">
@@ -33,7 +33,7 @@ const LTFooter = () => {
       <hr/>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright <a href="https://linktr.cn">{t('title')}</a>
+          Copyright &copy; {new Date().getFullYear()} <a href={t('domain')}>{t('title')}</a>
         </MDBContainer>
       </div>
     </MDBFooter>

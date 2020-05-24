@@ -11,33 +11,51 @@ const resources = {
   },
   zh: {
     translation: {
-      "title": "LINK - 链",
+      "title": "linktr.cn Beta.",
+      "domain": "https://linktr.cn",
       menu: {
         'home': '首页',
+        'pricing': '价格',
         'about': '关于',
         "help": '帮助',
       },
       about_us: {
         'title': "关于我们",
-        'content': "链 - 使您的影响力更广，传播到世界每一个角落。您仅需要一个链接遍可以向世界展示所有你所想展示的信息。"
+        'content': "让我们传播到世界的每一个角落。您仅需要一个链接便可以向世界展示所有你所想展示的。"
       },
       action: {
         'login': '登录',
         'signup': '注册',
-        'signupAccount': '注册账号',
-        'joinUs': '一键加入'
+        'signupAccount': '免费注册账号',
+        'joinUs': '一键加入',
+        'buyNow': '立刻购买'
       },
       model: {
         user: {
           email: { label: '邮箱' },
-          password: { label: '密码' }
+          password: { label: '密码' },
+          confirmation_password: { label: '确认密码' }
         }
+      },
+      pricing: {
+        'title': '一链连世界',
+        'subtitle': '您可以先选择一个适合您的计划，以后随时可以更改。',
+        'free': '免费',
+        'pro': '初级版',
+        'month': '月',
+        'enterprise': '高级版',
+        'unlimited': '无限制链接',
+        'support': '团队支持',
+        'reports': '报表',
+        'analytics': '报表，分析',
+        'customization': '自定义',
+        'integrations': '第三方集成',
       },
       tip: {
         'freeSignUp': '免费注册账号',
         'haveAccount': '已经有账号?',
         'gotoManagementPage': '进入管理面板',
-        'nearestWithWorld': '让我们离世界更近一些',
+        'nearestWithWorld': '一个链接可以让您离世界更近一些',
         'onlyOneLink': '世界可以您离近一点，再近一点',
         'takeYouToTheWorld': '您仅需要一个链接, 一个链接即可将您展示的内容带到整个世界!',
       }

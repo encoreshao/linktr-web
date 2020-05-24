@@ -1,21 +1,17 @@
 import React from "react";
-import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView, MDBBadge } from "mdbreact";
+import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBView } from "mdbreact";
 
 import { useTranslation } from 'react-i18next';
 
 const LTFeaturesPage = () => {
-  const newsStyle = {
-    borderBottom: "1px solid #e0e0e0",
-    marginBottom: "1.5rem"
-  };
-
-  const { t, i18n } = useTranslation();
+  // const newsStyle = {
+  //   borderBottom: "1px solid #e0e0e0",
+  //   marginBottom: "1.5rem"
+  // };
+  const { t } = useTranslation();
 
   return (
-    <MDBCard
-      className="my-5 px-5mx-auto"
-      style={{ fontWeight: 300, maxWidth: "98%" }}
-    >
+    <MDBCard>
       <MDBCardBody>
         <h2 className="h1-responsive font-weight-bold my-5 text-center">
           {t('tip.onlyOneLink')}
@@ -35,7 +31,7 @@ const LTFeaturesPage = () => {
                 <MDBMask overlay="white-slight" className="waves-light" />
               </a>
             </MDBView>
-            <MDBRow className="mb-3">
+{/*            <MDBRow className="mb-3">
               <MDBCol size="12">
                 <a href="#!">
                   <MDBBadge color="pink">
@@ -44,8 +40,8 @@ const LTFeaturesPage = () => {
                     </MDBBadge>
                 </a>
               </MDBCol>
-            </MDBRow>
-            <div className="d-flex justify-content-between" style={newsStyle}>
+            </MDBRow>*/}
+{/*            <div className="d-flex justify-content-between" style={newsStyle}>
               <MDBCol size="11" className="text-truncate pl-0 mb-3">
                 <a href="#!" className="font-weight-bold">
                   This is title of the news
@@ -86,7 +82,7 @@ const LTFeaturesPage = () => {
               <a href="#!">
                 <MDBIcon icon="angle-double-right" />
               </a>
-            </div>
+            </div>*/}
           </MDBCol>
 
           <MDBCol md="12" lg="4" className="mb-lg-0 mb-5">
@@ -100,7 +96,7 @@ const LTFeaturesPage = () => {
                 <MDBMask overlay="white-slight" className="waves-light" />
               </a>
             </MDBView>
-            <MDBRow className="mb-3">
+{/*            <MDBRow className="mb-3">
               <MDBCol size="12">
                 <a href="#!">
                   <MDBBadge color="deep-orange">
@@ -109,8 +105,8 @@ const LTFeaturesPage = () => {
                     </MDBBadge>
                 </a>
               </MDBCol>
-            </MDBRow>
-            <div className="d-flex justify-content-between" style={newsStyle}>
+            </MDBRow>*/}
+{/*            <div className="d-flex justify-content-between" style={newsStyle}>
               <MDBCol size="11" className="text-truncate pl-0 mb-3">
                 <a href="#!" className="font-weight-bold">
                   This is title of the news
@@ -151,7 +147,7 @@ const LTFeaturesPage = () => {
               <a href="#!">
                 <MDBIcon icon="angle-double-right" />
               </a>
-            </div>
+            </div>*/}
           </MDBCol>
 
           <MDBCol md="12" lg="4" className="mb-lg-0 mb-5">
@@ -165,7 +161,7 @@ const LTFeaturesPage = () => {
                 <MDBMask overlay="white-slight" className="waves-light" />
               </a>
             </MDBView>
-            <MDBRow className="mb-3">
+{/*            <MDBRow className="mb-3">
               <MDBCol size="12">
                 <a href="#!">
                   <MDBBadge color="success">
@@ -174,8 +170,8 @@ const LTFeaturesPage = () => {
                     </MDBBadge>
                 </a>
               </MDBCol>
-            </MDBRow>
-            <div className="d-flex justify-content-between" style={newsStyle}>
+            </MDBRow>*/}
+{/*            <div className="d-flex justify-content-between" style={newsStyle}>
               <MDBCol size="11" className="text-truncate pl-0 mb-3">
                 <a href="#!" className="font-weight-bold">
                   This is title of the news
@@ -218,7 +214,7 @@ const LTFeaturesPage = () => {
               <a href="#!">
                 <MDBIcon icon="angle-double-right" />
               </a>
-            </div>
+            </div>*/}
           </MDBCol>
         </MDBRow>
       </MDBCardBody>

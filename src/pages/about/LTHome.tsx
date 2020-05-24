@@ -1,37 +1,38 @@
 import React from 'react';
 import { withRouter } from 'react-router';
-
 import logo from './../../images/logo.svg';
-import './LTHome.css'
-
-import { MDBBtn } from "mdbreact";
+import { MDBCard, MDBBtn } from "mdbreact";
 
 import LTFeaturesPage from './../../components/LTFeaturesPage'
+import './LTHome.css'
 
 import { useTranslation } from 'react-i18next';
 
 const LTHome = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
-    <div className='home-intro pt-5 mt-5 text-center'>
-      <header className='App-header'>
+    <section className="home-intro">
+      <MDBCard className='home-header pt-5 mt-5 text-center'>
         <div>
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            {t('tip.freeSignUp')}
+            <MDBBtn outline color="cyan" rounded href='/signup' tag='a'>
+              {t('tip.freeSignUp')}
+            </MDBBtn>
           </p>
           <p>
             {t('tip.haveAccount')}
 
-            <MDBBtn outline color="cyan" rounded href='/login' tag='a'>
+            <MDBBtn rounded gradient="aqua" tag='a' href='/login'>
               {t('action.login')}
             </MDBBtn>
           </p>
         </div>
-      </header>
+      </MDBCard>
+
       <LTFeaturesPage />
-    </div>
+    </section>
   );
 }
 

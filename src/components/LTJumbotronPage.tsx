@@ -4,19 +4,19 @@ import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol,  MDBCardImage, MDBC
 import { useTranslation } from 'react-i18next';
 
 const LTJumbotronPage = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <MDBContainer className="mt-5 text-center">
       <MDBRow>
         <MDBCol>
           <MDBJumbotron className="p-0">
-            {/*<MDBCardImage
+            <MDBCardImage
               className="img-fluid"
               src="https://mdbootstrap.com/img/Photos/Slides/img%20(134).jpg"
-            />*/}
+            />
             <MDBCardBody>
-              {/*<MDBCardTitle className="h3">一键加入</MDBCardTitle>*/}
+              <MDBCardTitle className="h3">链</MDBCardTitle>
               <MDBCardText>
                 {t('tip.nearestWithWorld')}
               </MDBCardText>

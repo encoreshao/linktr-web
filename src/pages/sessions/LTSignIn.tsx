@@ -7,7 +7,7 @@ import logo from './../../images/logo.svg';
 import { useTranslation } from 'react-i18next';
 
 const LTSignIn = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const email     = t('model.user.email.label');
   const password   = t('model.user.password.label');
 
@@ -22,7 +22,7 @@ const LTSignIn = () => {
       </MDBRow>
 
       <hr />
-      <MDBRow>
+      <MDBRow className="pt-5 pb-5 m-auto">
         <MDBCol lg="6">
           <h2 className="text-left cyan-text">
             {t('tip.gotoManagementPage')}
@@ -45,13 +45,13 @@ const LTSignIn = () => {
             <img
               src="https://images.unsplash.com/photo-1466781783364-36c955e42a7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
               className="img-fluid"
-              alt=""
+              alt="LinkTR.cn"
             />
             <MDBMask className="flex-center purple-gradient">
-              <h3>
-                <a href='/signup' className="white-text">
+              <h3 className='text-center'>
+                <MDBBtn outline rounded tag='a' href='/signup' color='yellow'>
                   {t('action.signupAccount')}
-                </a>
+                </MDBBtn>
               </h3>
             </MDBMask>
           </MDBView>

@@ -1,14 +1,27 @@
 import React from 'react';
 import { withRouter } from 'react-router';
-import { MDBContainer } from "mdbreact";
-import LTJumbotronPage from './../../components/LTJumbotronPage'
+import { MDBContainer, MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn } from "mdbreact";
 import LTImagesCarousel from './../../components/LTImagesCarousel'
 
+import { useTranslation } from 'react-i18next';
+
 const LTAbout = () => {
+  const { t } = useTranslation();
+
   return (
-    <MDBContainer fluid className='mt-3 pt-3'>
+    <MDBContainer fluid className='mt-3 pt-3 text-center'>
       <LTImagesCarousel />
-      <LTJumbotronPage />
+      <MDBCardBody>
+        <MDBCardTitle>
+          {t('pricing.title')}
+        </MDBCardTitle>
+        <MDBCardText>
+          {t('tip.nearestWithWorld')}
+        </MDBCardText>
+        <MDBBtn outline color="cyan" rounded href='/signup' tag='a'>
+          {t('action.joinUs')}
+        </MDBBtn>
+      </MDBCardBody>
     </MDBContainer>
   );
 }

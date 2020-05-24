@@ -11,7 +11,10 @@
     - color: https://mdbootstrap.com/docs/react/css/colors/
 
 ## Add router - https://reacttraining.com/react-router/web/guides/quick-start
-  - yarn install react-router-dom
+  - yarn add react-router-dom
+
+## Add i18n support - https://react.i18next.com/latest/using-with-hooks
+  - yarn add react-i18next i18next
 
 ## Build
   - yarn build
