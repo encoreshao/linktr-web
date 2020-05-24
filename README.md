@@ -1,25 +1,25 @@
-# Link Tree
+# React Example
 
-## How to setup project
+### How to setup project
+  - `npx create-react-app linktr-web`
+  - `yarn start`
 
-  - npx create-react-app linktr-web
-  - yarn start
+### Add MDBreact
+  - `yarn add mdbreact`
+  - document
+    - https://mdbootstrap.com/docs/react/getting-started/quick-start/
+    - https://mdbootstrap.com/docs/react/css/colors/
 
-## Add MDBreact - https://mdbootstrap.com/docs/react/getting-started/quick-start/
-  - yarn add mdbreact
-  - Documents
-    - color: https://mdbootstrap.com/docs/react/css/colors/
+### Add router
+  - `yarn add react-router-dom`
+  - document: https://reacttraining.com/react-router/web/guides/quick-start
 
-## Add router - https://reacttraining.com/react-router/web/guides/quick-start
-  - yarn add react-router-dom
+### Add i18n support
+  - `yarn add react-i18next i18next`
+  - document: https://react.i18next.com/latest/using-with-hooks
 
-## Add i18n support - https://react.i18next.com/latest/using-with-hooks
-  - yarn add react-i18next i18next
+### Build
+  - `yarn build`
 
-## Build
-  - yarn build
-
-## Release to PROD
-  - scp -r ./build/* icmoc.com:/var/www/production/linktr-web
-  OR
-  - yarn deploy-production
+### Ship to PROD
+  - `yarn deploy-production`
