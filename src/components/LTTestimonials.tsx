@@ -3,7 +3,7 @@ import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardUp, MDBAvatar, MDBCardBod
 
 const LTTestimonials = () => {
   return (
-    <MDBContainer>
+    <MDBContainer className="container pt-5">
       <section className="text-center my-5">
         <h2 className="h1-responsive font-weight-bold my-5">
           Testimonials

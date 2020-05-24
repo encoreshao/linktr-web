@@ -54,7 +54,7 @@ class LTNavbarComponent extends React.Component<any, any> {
 
             <MDBNavbarNav right>
               <MDBNavItem>
-                <MDBNavLink to="#!"><span className='blue-text'>Beta.</span></MDBNavLink>
+                <MDBNavLink to="#!"><span className='blue-text'>Beta</span></MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
                 <MDBNavLink to="/login"><MDBIcon fab icon="user" /></MDBNavLink>

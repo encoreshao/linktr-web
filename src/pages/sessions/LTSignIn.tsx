@@ -12,7 +12,7 @@ const LTSignIn = () => {
   const password   = t('model.user.password.label');
 
   return (
-    <MDBContainer fluid className='mt-5 pt-5'>
+    <MDBContainer fluid className='container mt-5 pt-5'>
       <MDBRow className="pb-2">
         <MDBCol lg="12" className="text-center">
           <MDBAnimation type="bounce" infinite>
@@ -59,8 +59,7 @@ const LTSignIn = () => {
       </MDBRow>
       <hr />
 
-      <MDBRow className='pt-2'>
-      </MDBRow>
+      <MDBRow className='pt-2' />
     </MDBContainer>
   );
 }

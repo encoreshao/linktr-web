@@ -9,7 +9,7 @@ const LTAbout = () => {
   const { t } = useTranslation();
 
   return (
-    <MDBContainer fluid className='mt-3 pt-3 text-center'>
+    <MDBContainer fluid className='container mt-5 pt-5 text-center'>
       <LTImagesCarousel />
       <MDBCardBody>
         <MDBCardTitle>

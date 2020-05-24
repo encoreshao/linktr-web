@@ -1,5 +1,9 @@
 import React from "react";
-import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBView } from "mdbreact";
+import {
+  MDBRow, MDBCol,
+  MDBCard, MDBCardBody,
+  MDBMask, MDBView
+} from "mdbreact";
 
 import { useTranslation } from 'react-i18next';
 

@@ -22,15 +22,13 @@ const App = () => {
       <LTNavbar />
 
       <Switch>
-        <div className="container pt-5">
-          <Route path="/" component={withRouter(LTHome)} exact/>
-          <Route path="/about" component={withRouter(LTAbout)} />
-          <Route path="/login" component={withRouter(LTSignIn)} />
-          <Route path="/signup" component={withRouter(LTSignUp)} />
-          <Route path="/help" component={withRouter(LTHelp)} />
-          <Route path="/pricing" component={withRouter(LTPricingPlans)} />
-          <Route path="/error"  component={withRouter(LTError)} />
-         </div>
+        <Route path="/" component={withRouter(LTHome)} exact/>
+        <Route path="/about" component={withRouter(LTAbout)} />
+        <Route path="/login" component={withRouter(LTSignIn)} />
+        <Route path="/signup" component={withRouter(LTSignUp)} />
+        <Route path="/help" component={withRouter(LTHelp)} />
+        <Route path="/pricing" component={withRouter(LTPricingPlans)} />
+        <Route path="*" component={withRouter(LTError)} />
       </Switch>
 
       <LTFooter />

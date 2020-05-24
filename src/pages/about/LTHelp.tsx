@@ -5,7 +5,7 @@ import LTGridCarousel from './../../components/LTGridCarousel'
 
 const LTHelp = () => {
   return (
-    <MDBContainer fluid className='mt-3 pt-3'>
+    <MDBContainer fluid className='container mt-5 pt-5'>
       <LTGridCarousel />
     </MDBContainer>
   );
