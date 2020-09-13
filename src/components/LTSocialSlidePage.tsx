@@ -10,6 +10,36 @@ const LTSocialSlidePage = () => {
             <MDBView hover>
               <MDBCardImage
                 top
+                src="https://mdbootstrap.com/img/Photos/Avatars/img%20(28).jpg"
+                alt="MDBCard image cap"
+              />
+              <a href="#!">
+                <MDBMask overlay="white-slight" />
+              </a>
+            </MDBView>
+            <MDBCardBody>
+              <a href="#!">
+                <MDBCardTitle>Sara</MDBCardTitle>
+              </a>
+              <a href="#!" className="card-meta">
+                Coworker
+              </a>
+              <MDBCardText>Sara is a video maker living in Tokyo.</MDBCardText>
+              <hr />
+              <a href="#!" className="card-meta">
+                <span>
+                  <MDBIcon icon="user" />
+                  127 Friends
+                </span>
+              </a>
+              <p className="card-meta float-right">Joined in 2014</p>
+            </MDBCardBody>
+          </MDBCard>
+
+          <MDBCard personal className="mb-md-0 mb-4 m-2">
+            <MDBView hover>
+              <MDBCardImage
+                top
                 src="https://mdbootstrap.com/img/Photos/Avatars/img%20(26).jpg"
                 alt="MDBCard image cap"
               />
@@ -68,35 +98,6 @@ const LTSocialSlidePage = () => {
             </MDBCardBody>
           </MDBCard>
 
-          <MDBCard personal className="mb-md-0 mb-4 m-2">
-            <MDBView hover>
-              <MDBCardImage
-                top
-                src="https://mdbootstrap.com/img/Photos/Avatars/img%20(28).jpg"
-                alt="MDBCard image cap"
-              />
-              <a href="#!">
-                <MDBMask overlay="white-slight" />
-              </a>
-            </MDBView>
-            <MDBCardBody>
-              <a href="#!">
-                <MDBCardTitle>Sara</MDBCardTitle>
-              </a>
-              <a href="#!" className="card-meta">
-                Coworker
-              </a>
-              <MDBCardText>Sara is a video maker living in Tokyo.</MDBCardText>
-              <hr />
-              <a href="#!" className="card-meta">
-                <span>
-                  <MDBIcon icon="user" />
-                  127 Friends
-                </span>
-              </a>
-              <p className="card-meta float-right">Joined in 2014</p>
-            </MDBCardBody>
-          </MDBCard>
         </div>
       </MDBCol>
     </MDBRow>

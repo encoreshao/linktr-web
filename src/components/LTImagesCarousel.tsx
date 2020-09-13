@@ -24,7 +24,7 @@ class LTImageCarousel extends Component {
               <MDBView>
                 <img
                   className="d-block w-100"
-                  src="https://cdn.ekohe.com/8b67/Vancouver-03-small.jpg"
+                  src="https://images.unsplash.com/photo-1529611934128-376c7bb1c88a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
                   alt="First slide"
                 />
                 <MDBMask overlay="black-light" />
@@ -34,7 +34,7 @@ class LTImageCarousel extends Component {
               <MDBView>
                 <img
                   className="d-block w-100"
-                  src="https://cdn.ekohe.com/ce85/Paris-By-Night-Small.jpg"
+                  src="https://images.unsplash.com/photo-1568842919019-303da7f605b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2251&q=80"
                   alt="Second slide"
                 />
                 <MDBMask overlay="black-slight" />
@@ -45,7 +45,7 @@ class LTImageCarousel extends Component {
               <MDBView>
                 <img
                   className="d-block w-100"
-                  src="https://cdn.ekohe.com/92fd/tokyo-tower-small-picture.jpg"
+                  src="https://images.unsplash.com/photo-1599403868569-30dae419c0a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
                   alt="Third slide"
                 />
                 <MDBMask overlay="black-slight" />

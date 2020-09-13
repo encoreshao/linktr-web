@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import { withRouter } from 'react-router';
-import { MDBContainer, MDBInput, MDBBtn, MDBRow, MDBCol, MDBView, MDBMask, MDBAnimation } from "mdbreact";
+import { MDBContainer, MDBInput, MDBBtn, MDBRow, MDBCol, MDBView, MDBMask } from "mdbreact";
 
-import logo from './../../images/logo.svg';
+import LTAnimationLogo from './../../components/LTAnimationLogo'
 
 import { useTranslation } from 'react-i18next';
 
@@ -13,13 +13,7 @@ const LTSignIn = () => {
 
   return (
     <MDBContainer fluid className='container mt-5 pt-5'>
-      <MDBRow className="pb-2">
-        <MDBCol lg="12" className="text-center">
-          <MDBAnimation type="bounce" infinite>
-            <img className="img-fluid" src={logo} style={{ height: "100px" }} alt="logo" />
-          </MDBAnimation>
-        </MDBCol>
-      </MDBRow>
+      <LTAnimationLogo />
 
       <hr />
       <MDBRow className="pt-5 pb-5 m-auto">

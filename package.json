@@ -12,6 +12,8 @@
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "@types/react-router-dom": "^5.1.5",
+    "highcharts": "^8.1.0",
+    "highcharts-react-official": "^3.0.0",
     "i18next": "^19.4.4",
     "mdbreact": "^4.26.1",
     "react": "^16.13.1",

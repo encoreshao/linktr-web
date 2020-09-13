@@ -17,7 +17,8 @@ const resources = {
         'home': '首页',
         'pricing': '价格',
         'about': '关于',
-        "help": '帮助',
+        'help': '帮助',
+        'lookup': '查找'
       },
       about_us: {
         'title': "关于我们",
@@ -41,6 +42,7 @@ const resources = {
         'title': '一链连世界',
         'subtitle': '您可以先选择一个适合您的计划，以后随时可以更改。',
         'free': '免费',
+        'free_forever': '永久免费',
         'pro': '初级版',
         'month': '月',
         'enterprise': '高级版',

@@ -33,7 +33,7 @@ const LTFooter = () => {
       <hr/>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          Copyright &copy; {new Date().getFullYear()} <a href={t('domain')}>{t('title')}</a>
+          Copyright &copy; {new Date().getFullYear()} - <a href={t('domain')}>{t('title')}</a>
         </MDBContainer>
       </div>
     </MDBFooter>

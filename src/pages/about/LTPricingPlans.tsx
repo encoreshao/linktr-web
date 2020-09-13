@@ -35,7 +35,9 @@ const LTPricingPlans = () => {
                 </h4>
               </div>
               <MDBCardBody className="striped green-striped card-background px-5 green-text">
-                <h2 className="my-4 pb-3 h1">Free</h2>
+                <h2 className="my-4 pb-3 h1">
+                  {t('pricing.free_forever')}
+                </h2>
                 <ul style={{ listStyle: '' }}>
                   <li>
                     <p>

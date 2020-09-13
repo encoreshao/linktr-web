@@ -11,7 +11,9 @@ import LTAbout from './../about/LTAbout';
 import LTHelp from './../about/LTHelp';
 import LTSignIn from './../sessions/LTSignIn';
 import LTSignUp from './../sessions/LTSignUp';
+import LTYoutubeIDLookUp from './../social/LTLTYoutubeIDLookUp';
 import LTPricingPlans from './../about/LTPricingPlans'
+import LTHookIndex from './../hooks/LTIndex'
 import LTError from './../../components/LTError';
 
 import LTFooter from './../../components/LTFooter';
@@ -28,6 +30,8 @@ const App = () => {
         <Route path="/signup" component={withRouter(LTSignUp)} />
         <Route path="/help" component={withRouter(LTHelp)} />
         <Route path="/pricing" component={withRouter(LTPricingPlans)} />
+        <Route path="/lookup" component={withRouter(LTYoutubeIDLookUp)} />
+        <Route path="/hooks" component={withRouter(LTHookIndex)} />
         <Route path="*" component={withRouter(LTError)} />
       </Switch>
 
