@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardUp, MDBAvatar, MDBCardBody, MDBIcon } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon } from "mdbreact";
 
 const LTTestimonials = () => {
   return (
@@ -16,14 +16,7 @@ const LTTestimonials = () => {
         <MDBRow>
           <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
             <MDBCard testimonial>
-              <MDBCardUp color="info" />
-              <MDBAvatar className="mx-auto white">
-                <img
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
-                  alt=""
-                  className="rounded-circle img-fluid"
-                />
-              </MDBAvatar>
+              <MDBCard color="info" />
               <MDBCardBody>
                 <h4 className="font-weight-bold mb-4">John Doe</h4>
                 <hr />
@@ -37,14 +30,7 @@ const LTTestimonials = () => {
           </MDBCol>
           <MDBCol lg="4" md="6" className="mb-lg-0 mb-4">
             <MDBCard testimonial>
-              <MDBCardUp gradient="blue" />
-              <MDBAvatar className="mx-auto white">
-                <img
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg"
-                  alt=""
-                  className="rounded-circle img-fluid"
-                />
-              </MDBAvatar>
+              <MDBCard gradient="blue" />
               <MDBCardBody>
                 <h4 className="font-weight-bold mb-4">Anna Aston</h4>
                 <hr />
@@ -58,14 +44,7 @@ const LTTestimonials = () => {
           </MDBCol>
           <MDBCol lg="4" md="6" className="mb-lg-0 mb-4">
             <MDBCard testimonial>
-              <MDBCardUp className="indigo" />
-              <MDBAvatar className="mx-auto white">
-                <img
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
-                  alt=""
-                  className="rounded-circle img-fluid"
-                />
-              </MDBAvatar>
+              <MDBCard className="indigo" />
               <MDBCardBody>
                 <h4 className="font-weight-bold mb-4">Maria Kate</h4>
                 <hr />

@@ -20,7 +20,7 @@
   - document: https://react.i18next.com/latest/using-with-hooks
 
 ### Build
-  - `yarn build`
+  - yarn build
 
 ### Ship to PROD
-  - `yarn deploy-production`
+  - yarn deploy-production
