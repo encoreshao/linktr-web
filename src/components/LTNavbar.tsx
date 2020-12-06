@@ -38,17 +38,18 @@ class LTNavbarComponent extends React.Component<any, any> {
           {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
           <MDBCollapse isOpen={this.state.collapse} navbar>
             <MDBNavbarNav left>
-              <MDBNavItem activeClassName='active'>
-                <MDBNavLink to="/">{t('menu.home')}</MDBNavLink>
+              <MDBNavItem>
+                {/*<MDBNavLink activeStyle={{ fontWeight: "bold", color: "#00bcd4" }} to="/">{t('menu.home')}</MDBNavLink>*/}
+                <MDBNavLink activeClassName="active" to="/">{t('menu.home')}</MDBNavLink>
               </MDBNavItem>
-              <MDBNavItem activeClassName='active'>
-                <MDBNavLink to="/about">{t('menu.about')}</MDBNavLink>
+              <MDBNavItem>
+                <MDBNavLink activeClassName="active" to="/about">{t('menu.about')}</MDBNavLink>
               </MDBNavItem>
-              <MDBNavItem activeClassName='active'>
-                <MDBNavLink to="/pricing">{t('menu.pricing')}</MDBNavLink>
+              <MDBNavItem>
+                <MDBNavLink activeClassName="active" to="/pricing">{t('menu.pricing')}</MDBNavLink>
               </MDBNavItem>
-              <MDBNavItem activeClassName='active'>
-                <MDBNavLink to="/help">{t('menu.help')}</MDBNavLink>
+              <MDBNavItem>
+                <MDBNavLink activeClassName="active" to="/help">{t('menu.help')}</MDBNavLink>
               </MDBNavItem>
             </MDBNavbarNav>
 

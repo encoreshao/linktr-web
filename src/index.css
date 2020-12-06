@@ -24,3 +24,9 @@ dl {
   margin: 0;
   padding: 0;
 }
+
+.nav-item a.active {
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: #00bcd4 !important;
+}

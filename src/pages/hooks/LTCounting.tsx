@@ -20,7 +20,7 @@ const LTCounting = () => {
       <hr />
       <p className="mb-0">
         <MDBBtn onClick={() => setCount(count + 1)}>
-          Click Me
+          PLUS +1
         </MDBBtn>
       </p>
     </MDBAlert>

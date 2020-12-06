@@ -18,7 +18,8 @@ const resources = {
         'pricing': '价格',
         'about': '关于',
         'help': '帮助',
-        'lookup': '查找'
+        'lookup': '查找',
+        'hooks': 'Hooks'
       },
       about_us: {
         'title': "关于我们",

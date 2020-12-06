@@ -26,10 +26,10 @@ const LTYoutubeIDLookUp = () => {
     <MDBContainer fluid className='container mt-5 pt-5'>
       <LTAnimationLogo />
 
-      <MDBRow lg="12">
+      <MDBRow lg="24">
         <MDBInput
-          className=''
-          lg="12"
+          className='active'
+          lg="24"
           label="Run function on click icon"
           icon="search"
           value={url}
