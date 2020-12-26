@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBAnimation, MDBCol, MDBRow } from 'mdbreact';
-import { withRouter } from 'react-router';
+import { withRouter } from 'react-router-dom';
 
 import logo from '../images/logo.svg';
 

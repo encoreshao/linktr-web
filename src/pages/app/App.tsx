@@ -10,7 +10,7 @@ import LTHome from './../about/LTHome';
 import LTAbout from './../about/LTAbout';
 import LTHelp from './../about/LTHelp';
 import LTSignIn from './../sessions/LTSignIn';
-import LTSignUp from './../sessions/LTSignUp';
+import LTSignUp from './../sessions/LTSignUp-v2';
 import LTYoutubeIDLookUp from './../social/LTLTYoutubeIDLookUp';
 import LTPricingPlans from './../about/LTPricingPlans'
 import LTHookIndex from './../hooks/LTIndex'

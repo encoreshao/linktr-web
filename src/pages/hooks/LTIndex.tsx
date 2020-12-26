@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter } from 'react-router';
+import { withRouter } from 'react-router-dom';
 import { MDBContainer } from "mdbreact";
 
 import LTAnimationLogo from './../../components/LTAnimationLogo'

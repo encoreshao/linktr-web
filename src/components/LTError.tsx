@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBContainer, MDBMask, MDBView, MDBRow } from 'mdbreact';
-import { withRouter } from 'react-router';
+import { withRouter } from 'react-router-dom';
 
 const LTError = () => {
     return (

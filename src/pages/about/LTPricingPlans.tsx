@@ -11,7 +11,7 @@ const LTPricingPlans = () => {
   const { t } = useTranslation();
 
   return (
-    <MDBContainer fluid className='container mt-5 pt-5'>
+    <MDBContainer fluid className='p-5'>
       <section className="text-center my-5 black-text">
         <h2 className="h1-responsive font-weight-bold text-center my-5">
           {t('pricing.title')}

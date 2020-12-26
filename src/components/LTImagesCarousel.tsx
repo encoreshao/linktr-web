@@ -11,7 +11,7 @@ import {
 class LTImageCarousel extends Component {
   render() {
     return (
-      <MDBContainer>
+      <MDBContainer fluid>
         <MDBCarousel
           activeItem={1}
           length={3}
@@ -25,7 +25,7 @@ class LTImageCarousel extends Component {
                 <img
                   className="d-block w-100"
                   src="https://images.unsplash.com/photo-1529611934128-376c7bb1c88a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
-                  alt="First slide"
+                  alt="First Slide"
                 />
                 <MDBMask overlay="black-light" />
               </MDBView>
@@ -35,7 +35,7 @@ class LTImageCarousel extends Component {
                 <img
                   className="d-block w-100"
                   src="https://images.unsplash.com/photo-1568842919019-303da7f605b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2251&q=80"
-                  alt="Second slide"
+                  alt="Second Slide"
                 />
                 <MDBMask overlay="black-slight" />
                 {/*black-strong*/}
@@ -46,7 +46,7 @@ class LTImageCarousel extends Component {
                 <img
                   className="d-block w-100"
                   src="https://images.unsplash.com/photo-1599403868569-30dae419c0a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
-                  alt="Third slide"
+                  alt="Third Slide"
                 />
                 <MDBMask overlay="black-slight" />
               </MDBView>

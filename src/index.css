@@ -30,3 +30,17 @@ dl {
   font-size: 1.15rem;
   color: #00bcd4 !important;
 }
+
+img {
+  border-radius: 10px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+img:hover {
+  border-radius: 20px;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { withRouter } from 'react-router';
+import { withRouter } from 'react-router-dom';
 import { MDBBtn, MDBAlert } from "mdbreact";
 
 const LTCounting = () => {

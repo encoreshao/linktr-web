@@ -1,11 +1,11 @@
 import React from 'react';
-import { withRouter } from 'react-router';
+import { withRouter } from 'react-router-dom';
 import { MDBContainer } from "mdbreact";
-import LTGridCarousel from './../../components/LTGridCarousel'
+import LTGridCarousel from './../../components/LTGridCarousel';
 
 const LTHelp = () => {
   return (
-    <MDBContainer fluid className='container mt-5 pt-5'>
+    <MDBContainer fluid className='p-5 text-center'>
       <LTGridCarousel />
     </MDBContainer>
   );

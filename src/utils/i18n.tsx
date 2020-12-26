@@ -30,12 +30,14 @@ const resources = {
         'signup': '注册',
         'signupAccount': '免费注册账号',
         'joinUs': '一键加入',
-        'buyNow': '立刻购买'
+        'buyNow': '立刻购买',
+        'learn_more': '了解更多'
       },
       model: {
         user: {
           email: { label: '邮箱' },
           password: { label: '密码' },
+          username: { label: '用户名'},
           confirmation_password: { label: '确认密码' }
         }
       },
@@ -61,6 +63,12 @@ const resources = {
         'nearestWithWorld': '一个链接可以让您离世界更近一些',
         'onlyOneLink': '世界可以您离近一点，再近一点',
         'takeYouToTheWorld': '您仅需要一个链接, 一个链接即可将您展示的内容带到整个世界!',
+      },
+      social: {
+        'linkedin': 'LinkTr',
+        'facebook': 'LinkTr',
+        'twitter': 'LinkTr',
+        'instagram': 'LinkTr'
       }
     }
   }

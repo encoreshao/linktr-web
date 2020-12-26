@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { withRouter } from 'react-router';
+import { withRouter } from 'react-router-dom';
 import {
   MDBContainer, MDBInput, MDBBtn, MDBRow, MDBCol,
   MDBView, MDBMask
@@ -16,7 +16,7 @@ const LTSignUp = () => {
   const confirmation_password   = t('model.user.confirmation_password.label');
 
   return (
-    <MDBContainer fluid className='container mt-5 pt-5'>
+    <MDBContainer fluid className='mt-5 pt-5'>
       <LTAnimationLogo />
 
       <hr/>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { withRouter } from 'react-router';
+import { withRouter } from 'react-router-dom';
 import {
   MDBContainer, MDBInput, MDBRow
 } from "mdbreact";
@@ -23,7 +23,7 @@ const LTYoutubeIDLookUp = () => {
   }
 
   return (
-    <MDBContainer fluid className='container mt-5 pt-5'>
+    <MDBContainer fluid className='mt-5 pt-5'>
       <LTAnimationLogo />
 
       <MDBRow lg="24">

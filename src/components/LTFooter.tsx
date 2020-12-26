@@ -9,7 +9,7 @@ const LTFooter = () => {
   const { t } = useTranslation();
 
   return (
-    <MDBFooter className="font-small pt-4 mt-4 special-color">
+    <MDBFooter color="unique-color-dark" className="font-small pt-5">
       <MDBContainer fluid className="container text-center text-md-left">
         <MDBRow>
           <MDBCol>
@@ -19,21 +19,47 @@ const LTFooter = () => {
             </p>
           </MDBCol>
 
-{/*          <MDBCol md="6">
-           <h5 className="title">链接</h5>
+          <MDBCol md="3">
+            <h5 className="title">链接</h5>
             <ul className='mt-0'>
-              <li className="list-unstyled">
-                <a href="#!">Link 1</a>
+              <li className="list-unstyled mt-1">
+                <a href="https://linktr.cn">LinkTr</a>
+              </li>
+              <li className="list-unstyled mt-1">
+                <a href="https://erp.icmomc.com">ERP</a>
+              </li>
+              <li className="list-unstyled mt-1">
+                <a href="https://icmomc.com">Encore Shao</a>
+              </li>
+              <li className="list-unstyled mt-1">
+                <a href="https://ekohe.com/encore">Ekohe - Encore</a>
               </li>
             </ul>
-          </MDBCol>*/}
+          </MDBCol>
+          <MDBCol md="3">
+            <h5 className="title">&nbsp;</h5>
+            <ul className='mt-0'>
+              <li className="list-unstyled mt-1">
+                <a href="https://blog.icmomc.com">Encore's Blog</a>
+              </li>
+              <li className="list-unstyled mt-1">
+                <a href="https://github.com/encoreshao">Encore's Github</a>
+              </li>
+              <li className="list-unstyled mt-1">
+                <a href="https://linkedin.com/in/encore-shao">Encore's LinkedIn</a>
+              </li>
+              <li className="list-unstyled mt-1">
+                <a href="https://www.facebook.com/encore.shao">Encore's Facebook</a>
+              </li>
+            </ul>
+          </MDBCol>
         </MDBRow>
       </MDBContainer>
 
-      <hr/>
+      <hr className="container pt-3"/>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          Copyright &copy; {new Date().getFullYear()} - <a href={t('domain')}>{t('title')}</a>
+          Copyright &copy; {new Date().getFullYear()} - <a href={t('domain')}> {t('title')} </a>
         </MDBContainer>
       </div>
     </MDBFooter>

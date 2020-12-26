@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { withRouter } from 'react-router';
+import { withRouter } from 'react-router-dom';
 import { MDBContainer, MDBInput, MDBBtn, MDBRow, MDBCol, MDBView, MDBMask } from "mdbreact";
 
 import LTAnimationLogo from './../../components/LTAnimationLogo'
@@ -12,7 +12,7 @@ const LTSignIn = () => {
   const password   = t('model.user.password.label');
 
   return (
-    <MDBContainer fluid className='container mt-5 pt-5'>
+    <MDBContainer fluid className='container pt-5 mt-5'>
       <LTAnimationLogo />
 
       <hr />

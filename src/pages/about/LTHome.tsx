@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter } from 'react-router';
+import { withRouter } from 'react-router-dom';
 import logo from './../../images/logo.svg';
 import { MDBContainer, MDBCard, MDBBtn } from "mdbreact";
 
@@ -12,7 +12,7 @@ const LTHome = () => {
   const { t } = useTranslation();
 
   return (
-    <MDBContainer className='container mt-5 pt-3'>
+    <MDBContainer fluid className='mt-5 pt-3'>
       <section className="home-intro">
         <MDBCard className='home-header pt-5 mt-5 text-center'>
           <div>
