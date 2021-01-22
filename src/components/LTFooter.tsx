@@ -26,10 +26,10 @@ const LTFooter = () => {
                 <a href="https://linktr.cn">LinkTr</a>
               </li>
               <li className="list-unstyled mt-1">
-                <a href="https://erp.icmomc.com">ERP</a>
+                <a href="https://erp.icmoc.com">ERP</a>
               </li>
               <li className="list-unstyled mt-1">
-                <a href="https://icmomc.com">Encore Shao</a>
+                <a href="https://icmoc.com">Encore Shao</a>
               </li>
               <li className="list-unstyled mt-1">
                 <a href="https://ekohe.com/encore">Ekohe - Encore</a>
@@ -40,7 +40,7 @@ const LTFooter = () => {
             <h5 className="title">&nbsp;</h5>
             <ul className='mt-0'>
               <li className="list-unstyled mt-1">
-                <a href="https://blog.icmomc.com">Encore's Blog</a>
+                <a href="https://blog.icmoc.com">Encore's Blog</a>
               </li>
               <li className="list-unstyled mt-1">
                 <a href="https://github.com/encoreshao">Encore's Github</a>
@@ -56,7 +56,7 @@ const LTFooter = () => {
         </MDBRow>
       </MDBContainer>
 
-      <hr className="container pt-3"/>
+      <hr className="container pt-3" />
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
           Copyright &copy; {new Date().getFullYear()} - <a href={t('domain')}> {t('title')} </a>
