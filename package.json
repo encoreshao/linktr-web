@@ -26,7 +26,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy-production": "react-scripts build && scp -r ./build/* encore@icmoc.com:/var/www/production/linktr-web",
+    "deploy-production": "react-scripts build && scp -r ./build/* icmoc.com:/var/www/production/linktr-web",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

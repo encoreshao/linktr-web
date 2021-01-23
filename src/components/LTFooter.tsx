@@ -29,7 +29,7 @@ const LTFooter = () => {
                 <a href="https://erp.icmoc.com">ERP</a>
               </li>
               <li className="list-unstyled mt-1">
-                <a href="https://icmoc.com">Encore Shao</a>
+                <a href="https://www.icmoc.com">Encore Shao</a>
               </li>
               <li className="list-unstyled mt-1">
                 <a href="https://ekohe.com/encore">Ekohe - Encore</a>
