@@ -12,7 +12,7 @@
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "@types/react-router-dom": "^5.1.5",
-    "highcharts": "^8.1.0",
+    "highcharts": "^9.0.0",
     "highcharts-react-official": "^3.0.0",
     "i18next": "^19.4.4",
     "mdbreact": "^5.0.0",
