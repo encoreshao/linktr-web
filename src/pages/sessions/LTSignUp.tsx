@@ -11,15 +11,15 @@ import { useTranslation } from 'react-i18next';
 
 const LTSignUp = () => {
   const { t } = useTranslation();
-  const email     = t('model.user.email.label');
-  const password   = t('model.user.password.label');
-  const confirmation_password   = t('model.user.confirmation_password.label');
+  const email = t('model.user.email.label');
+  const password = t('model.user.password.label');
+  const confirmation_password = t('model.user.confirmation_password.label');
 
   return (
-    <MDBContainer fluid className='mt-5 pt-5'>
+    <MDBContainer fluid className='pt-5'>
       <LTAnimationLogo />
 
-      <hr/>
+      <hr />
       <MDBRow className="pt-5 pb-5 m-auto">
         <MDBCol lg='6'>
           <MDBView hover zoom rounded>
@@ -44,7 +44,7 @@ const LTSignUp = () => {
           <h2 className="text-left cyan-text">
             {t('tip.freeSignUp')}
           </h2>
-          <hr className="cyan"/>
+          <hr className="cyan" />
 
           <MDBView hover zoom rounded className="cyan-text">
             <MDBInput label={email} background outline type="email" />
@@ -58,7 +58,7 @@ const LTSignUp = () => {
           </MDBView>
         </MDBCol>
       </MDBRow>
-      <hr/>
+      <hr />
 
       <MDBRow className='pt-2'>
       </MDBRow>

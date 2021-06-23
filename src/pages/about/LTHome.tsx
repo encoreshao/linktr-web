@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import logo from './../../images/logo.svg';
-import { MDBContainer, MDBCard, MDBBtn } from "mdbreact";
+import { MDBCard, MDBBtn } from "mdbreact";
 
 import LTFeaturesPage from './../../components/LTFeaturesPage'
 import './LTHome.css'
@@ -12,7 +12,7 @@ const LTHome = () => {
   const { t } = useTranslation();
 
   return (
-    <MDBContainer fluid className='mt-5 pt-3'>
+    <div>
       <section className="home-intro">
         <MDBCard className='home-header pt-5 mt-5 text-center'>
           <div>
@@ -33,7 +33,7 @@ const LTHome = () => {
         </MDBCard>
       </section>
       <LTFeaturesPage />
-    </MDBContainer>
+    </div>
   );
 }
 

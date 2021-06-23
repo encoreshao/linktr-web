@@ -28,7 +28,7 @@ class LTNavbarComponent extends React.Component<any, any> {
     const { t } = this.props;
 
     return (
-      <MDBNavbar color="bg-primary" fixed="top" expand="md" light transparent>
+      <MDBNavbar color="bg-primary" expand="md" light transparent>
         <MDBContainer fluid className="text-md-left">
           <MDBNavbarBrand href="/">
             <span>
@@ -62,7 +62,7 @@ class LTNavbarComponent extends React.Component<any, any> {
               </MDBNavItem>
             </MDBNavbarNav>
           </MDBCollapse>
-         </MDBContainer>
+        </MDBContainer>
       </MDBNavbar>
     );
   }

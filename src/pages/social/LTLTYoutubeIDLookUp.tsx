@@ -14,7 +14,7 @@ const LTYoutubeIDLookUp = () => {
     const regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
     const match = url.match(regExp);
 
-    const youtubeUrl = (match&&match[7].length===11) ? match[7] : false;
+    const youtubeUrl = (match && match[7].length === 11) ? match[7] : false;
     if (youtubeUrl === false) {
       setUrl(url);
     } else {
@@ -23,7 +23,7 @@ const LTYoutubeIDLookUp = () => {
   }
 
   return (
-    <MDBContainer fluid className='mt-5 pt-5'>
+    <MDBContainer fluid>
       <LTAnimationLogo />
 
       <MDBRow lg="24">

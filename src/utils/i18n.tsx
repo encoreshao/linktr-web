@@ -18,6 +18,7 @@ const resources = {
         'pricing': '价格',
         'about': '关于',
         'help': '帮助',
+        'links': '链接',
         'lookup': '查找',
         'hooks': 'Hooks'
       },
@@ -37,7 +38,7 @@ const resources = {
         user: {
           email: { label: '邮箱' },
           password: { label: '密码' },
-          username: { label: '用户名'},
+          username: { label: '用户名' },
           confirmation_password: { label: '确认密码' }
         }
       },

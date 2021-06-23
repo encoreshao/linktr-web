@@ -23,10 +23,10 @@ const LTFooter = () => {
             <h5 className="title">链接</h5>
             <ul className='mt-0'>
               <li className="list-unstyled mt-1">
-                <a href="https://linktr.cn">LinkTr</a>
+                <a href="https://erp.icmoc.com">ERP</a>
               </li>
               <li className="list-unstyled mt-1">
-                <a href="https://erp.icmoc.com">ERP</a>
+                <a href="https://linktr.cn/b/encore">Encore - 链</a>
               </li>
               <li className="list-unstyled mt-1">
                 <a href="https://www.icmoc.com">Encore Shao</a>
@@ -40,16 +40,16 @@ const LTFooter = () => {
             <h5 className="title">&nbsp;</h5>
             <ul className='mt-0'>
               <li className="list-unstyled mt-1">
-                <a href="https://blog.icmoc.com">Encore's Blog</a>
+                <a href="https://blog.icmoc.com">Encore - Blog</a>
               </li>
               <li className="list-unstyled mt-1">
-                <a href="https://github.com/encoreshao">Encore's Github</a>
+                <a href="https://github.com/encoreshao">Encore - Github</a>
               </li>
               <li className="list-unstyled mt-1">
-                <a href="https://linkedin.com/in/encore-shao">Encore's LinkedIn</a>
+                <a href="https://linkedin.com/in/encore-shao">Encore - LinkedIn</a>
               </li>
               <li className="list-unstyled mt-1">
-                <a href="https://www.facebook.com/encore.shao">Encore's Facebook</a>
+                <a href="https://www.facebook.com/encore.shao">Encore - Facebook</a>
               </li>
             </ul>
           </MDBCol>

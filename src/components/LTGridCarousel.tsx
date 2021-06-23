@@ -23,7 +23,7 @@ class LTGridCarousel extends Component {
         <MDBRow>
           {[images[0]].map(
             (url: any, index: number) => (
-              <MDBCol md="12" className="mb-3">
+              <MDBCol key={index} md="12" className="mb-3">
                 <img src={url} className="img-fluid z-depth-1" alt="LinkTR" />
               </MDBCol>
             )
@@ -32,7 +32,7 @@ class LTGridCarousel extends Component {
         <MDBRow>
           {[images[6], images[7]].map(
             (url: any, index: number) => (
-              <MDBCol md="6" className="mb-3">
+              <MDBCol key={index} md="6" className="mb-3">
                 <img src={url} className="img-fluid z-depth-2" alt="LinkTR" />
               </MDBCol>
             )
@@ -41,7 +41,7 @@ class LTGridCarousel extends Component {
         <MDBRow>
           {[images[1], images[2], images[3]].map(
             (url: any, index: number) => (
-              <MDBCol lg="4" md="12" className="mb-3">
+              <MDBCol key={index} lg="4" md="12" className="mb-3">
                 <img src={url} className="img-fluid z-depth-3" alt="LinkTR" />
               </MDBCol>
             )
