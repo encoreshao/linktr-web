@@ -40,7 +40,7 @@ class LTNavbarComponent extends React.Component<any, any> {
             <MDBNavbarNav left>
               <MDBNavItem>
                 {/*<MDBNavLink activeStyle={{ fontWeight: "bold", color: "#00bcd4" }} to="/">{t('menu.home')}</MDBNavLink>*/}
-                <MDBNavLink activeClassName="active" to="/">{t('menu.home')}</MDBNavLink>
+                <MDBNavLink activeClassName="active" to="/" exact>{t('menu.home')}</MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
                 <MDBNavLink activeClassName="active" to="/about">{t('menu.about')}</MDBNavLink>

@@ -9,12 +9,16 @@
 
 .list-group a, .list-group a.active {
   margin: .5rem;
-  background-color: rgba(28, 35, 49, .8);
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  background-color: rgba(31,41,55,var(--tw-bg-opacity));
+  color: rgba(243,244,246,var(--tw-text-opacity));
   border-radius: .5rem;
   color: white;
 }
 
 .list-group a:hover {
-  color: white;
-  background-color: rgba(0, 188, 210, .8);
+  color: rgba(31,41,55,1);
+  background-color: rgba(0, 188, 210, .5);
+  font-size: 1.02rem;
 }

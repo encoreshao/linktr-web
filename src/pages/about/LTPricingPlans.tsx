@@ -12,7 +12,7 @@ const LTPricingPlans = () => {
 
   return (
     <MDBContainer fluid>
-      <section className="text-center my-5 black-text">
+      <section className="text-center my-5 white-text">
         <h2 className="h1-responsive font-weight-bold text-center my-5">
           {t('pricing.title')}
         </h2>

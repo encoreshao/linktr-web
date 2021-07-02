@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgb(69, 90, 100);
+  /*color: rgb(69, 90, 100);*/
+  color: #fff;
+  background-color: #172033;
   font-weight: normal;
   font-style: normal;
   margin: 0px;
@@ -25,12 +27,6 @@ dl {
   padding: 0;
 }
 
-.nav-item a.active {
-  font-weight: 400;
-  font-size: 1.15rem;
-  color: #00bcd4 !important;
-}
-
 img {
   border-radius: 10px;
   -webkit-transform: scale(1);
@@ -43,4 +39,26 @@ img:hover {
   border-radius: 20px;
   -webkit-transform: scale(1.03);
   transform: scale(1.03);
+}
+
+nav {
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  background-color: rgba(31,41,55,var(--tw-bg-opacity));
+  color: rgba(243,244,246,var(--tw-text-opacity));
+}
+
+nav .nav-item a {
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: white !important;
+}
+
+nav .nav-item a.active {
+  color: #00bcd4 !important;
+}
+
+footer {
+  --tw-bg-opacity: 1;
+  background-color: rgba(31,41,55,var(--tw-bg-opacity));
 }

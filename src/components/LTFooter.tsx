@@ -23,16 +23,16 @@ const LTFooter = () => {
             <h5 className="title">链接</h5>
             <ul className='mt-0'>
               <li className="list-unstyled mt-1">
-                <a href="https://erp.icmoc.com">ERP</a>
+                <a href="https://www.icmoc.com">Encore</a>
               </li>
               <li className="list-unstyled mt-1">
-                <a href="https://linktr.cn/b/encore">Encore - 链</a>
+                <a href="/b/encore">Encore - 链</a>
               </li>
               <li className="list-unstyled mt-1">
-                <a href="https://www.icmoc.com">Encore Shao</a>
+                <a href="https://ekohe.com/encore">Encore - Ekohe</a>
               </li>
               <li className="list-unstyled mt-1">
-                <a href="https://ekohe.com/encore">Ekohe - Encore</a>
+                <a href="https://erp.icmoc.com">Encore - Free ERP</a>
               </li>
             </ul>
           </MDBCol>

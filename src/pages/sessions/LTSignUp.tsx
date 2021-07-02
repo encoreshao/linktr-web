@@ -41,12 +41,12 @@ const LTSignUp = () => {
         </MDBCol>
 
         <MDBCol lg="6">
-          <h2 className="text-left cyan-text">
+          <h2 className="text-left">
             {t('tip.freeSignUp')}
           </h2>
           <hr className="cyan" />
 
-          <MDBView hover zoom rounded className="cyan-text">
+          <MDBView hover zoom rounded>
             <MDBInput label={email} background outline type="email" />
             <MDBInput label={password} background outline type="password" />
             <MDBInput label={confirmation_password} background outline type="confirmation_password" />

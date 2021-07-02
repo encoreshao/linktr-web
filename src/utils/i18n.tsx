@@ -12,7 +12,7 @@ const resources = {
   zh: {
     translation: {
       "title": "linktr.cn",
-      "domain": "https://linktr.cn",
+      "domain": "/",
       menu: {
         'home': '首页',
         'pricing': '价格',

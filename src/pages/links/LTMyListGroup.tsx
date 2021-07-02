@@ -14,7 +14,7 @@ const LTMyListGroup = () => {
     link: 'https://erp.icmoc.com',
     name: "Free ERP"
   }, {
-    link: 'https://linktr.cn',
+    link: '/',
     name: "链"
   }, {
     link: 'https://ranbot.online',
