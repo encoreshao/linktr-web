@@ -8,16 +8,12 @@ import {
 import { useTranslation } from 'react-i18next';
 
 const LTFeaturesPage = () => {
-  // const newsStyle = {
-  //   borderBottom: "1px solid #e0e0e0",
-  //   marginBottom: "1.5rem"
-  // };
   const { t } = useTranslation();
 
   return (
-    <MDBCard>
+    <MDBCard className="mb-5">
       <MDBCardBody>
-        <h2 className="h1-responsive font-weight-bold my-5 text-center">
+        <h2 className="h1-responsive font-weight-bold my-5 text-center black-text">
           {t('tip.onlyOneLink')}
         </h2>
         <p className="dark-grey-text mx-auto mb-5 w-75 text-center">

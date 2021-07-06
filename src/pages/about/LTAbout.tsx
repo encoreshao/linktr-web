@@ -18,7 +18,7 @@ const LTAbout = () => {
       <hr />
       <LTImagesCarousel />
 
-      <MDBCardBody className='m-5'>
+      <MDBCardBody className='m-5 black-text'>
         <MDBCardTitle>
           {t('pricing.title')}
         </MDBCardTitle>

@@ -20,7 +20,8 @@ const resources = {
         'help': '帮助',
         'links': '链接',
         'lookup': '查找',
-        'hooks': 'Hooks'
+        'hooks': 'Hooks',
+        'team': "团队"
       },
       about_us: {
         'title': "关于我们",

@@ -7,12 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /*color: rgb(69, 90, 100);*/
   color: #fff;
-  background-color: #172033;
   font-weight: normal;
   font-style: normal;
   margin: 0px;
   padding: 0px;
   font-size: 1rem;
+
+  /*background-color: #172033;*/
+/*  background: -moz-linear-gradient(45deg, rgba(31, 41, 55, 0.6), rgba(0, 188, 212, 0.69) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(31, 41, 55, 0.6), rgba(0, 188, 212, 0.69) 100%);
+  background: linear-gradient(45deg, rgba(31, 41, 55, 0.6), rgba(0, 188, 212, 0.69) 100%);*/
 }
 
 * {

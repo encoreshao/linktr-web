@@ -15,6 +15,7 @@ import LTSignUp from './../sessions/LTSignUp';
 import LTYoutubeIDLookUp from './../social/LTLTYoutubeIDLookUp';
 import LTPricingPlans from './../about/LTPricingPlans'
 import LTHookIndex from './../hooks/LTIndex'
+import LTMember from './../team/LTMember'
 import LTError from './../../components/LTError';
 import LTMyListGroup from './../links/LTMyListGroup'
 
@@ -35,6 +36,7 @@ const App = () => {
           <Route path="/pricing" component={withRouter(LTPricingPlans)} />
           <Route path="/lookup" component={withRouter(LTYoutubeIDLookUp)} />
           <Route path="/hooks" component={withRouter(LTHookIndex)} />
+          <Route path="/team" component={withRouter(LTMember)} />
           <Route path="/b/*" component={withRouter(LTMyListGroup)} />
           <Route path="*" component={withRouter(LTError)} />
         </Switch>

@@ -29,7 +29,7 @@ class LTNavbarComponent extends React.Component<any, any> {
 
     return (
       <MDBNavbar color="bg-primary" expand="md" light transparent>
-        <MDBContainer fluid className="text-md-left">
+        <MDBContainer className="text-md-left">
           <MDBNavbarBrand href="/">
             <span>
               <img className="img-fluid" alt="" src={logo} />
@@ -47,6 +47,9 @@ class LTNavbarComponent extends React.Component<any, any> {
               </MDBNavItem>
               <MDBNavItem>
                 <MDBNavLink activeClassName="active" to="/pricing">{t('menu.pricing')}</MDBNavLink>
+              </MDBNavItem>
+              <MDBNavItem>
+                <MDBNavLink activeClassName="active" to="/team">{t('menu.team')}</MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
                 <MDBNavLink activeClassName="active" to="/help">{t('menu.help')}</MDBNavLink>
